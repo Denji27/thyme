@@ -1,0 +1,50 @@
+.breadcrumb-content {
+    background-color: white;
+    z-index: 999;
+    width: 100%;
+    color: #fff;
+    position: relative;
+}
+
+/* .breadcrumb-item+.breadcrumb-item::before {
+    color: #006DC7;
+} */
+
+.breadcrumb {
+    background-color: white;
+    margin-bottom: 0.25rem;
+    margin-top: 0.25rem;
+    padding-left: 0;
+}
+
+.nav-breadcrumb {
+    width: 100%;
+}
+
+/* .breadcrumb li a {
+    color: #006DC7;
+} */
+.breadcrumb li a:hover{
+    text-decoration: underline;
+}
+.breadcrumb .active li a span{
+    color: #6c757d!important;
+}
+/* .scrolling {
+    position: fixed;
+    top: 0;
+    background-color: #006DC7;
+    left: 0;
+} */
+
+/* .scrolling .breadcrumb {
+    background-color: #006DC7;
+} */
+
+.scrolling .breadcrumb li a {
+    color: #fff;
+}
+
+.scrolling .breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}

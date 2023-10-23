@@ -1,0 +1,62 @@
+/*the container must be positioned relative:*/
+.autocomplete-real-estate {
+    position: relative;
+    /*display: inline-block;*/
+}
+
+/*input {*/
+/*    border: 1px solid transparent;*/
+/*    background-color: #f1f1f1;*/
+/*    padding: 10px;*/
+/*    font-size: 16px;*/
+/*}*/
+
+/*input[type=text] {*/
+/*    background-color: #f1f1f1;*/
+/*    width: 100%;*/
+/*}*/
+
+/*input[type=submit] {*/
+/*    background-color: DodgerBlue;*/
+/*    color: #fff;*/
+/*    cursor: pointer;*/
+/*}*/
+
+.autocomplete-real-estate-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    margin-top: 2px;
+    background: #eee;
+    /* border-bottom: none; */
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-real-estate-items .autocomplete-real-estate-item {
+    background: rgba(0, 0, 0, 0);
+    font-size: 14px;
+    padding: 10px;
+    cursor: pointer;
+    /* border-bottom: 1px solid #d4d4d4; */
+}
+
+.autocomplete-real-estate-items .autocomplete-real-estate-tab-header {
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+/*when hovering an item:*/
+.autocomplete-real-estate-items .autocomplete-real-estate-item:hover {
+    background-color: #e9e9e9;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-real-estate-active {
+    background-color: DodgerBlue !important;
+    color: #BBBBBB;
+}

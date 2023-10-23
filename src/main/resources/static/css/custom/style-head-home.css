@@ -1,0 +1,28 @@
+.main-header {
+    background: url(../../img/background-header.jpg) no-repeat;
+    height: 540px;
+    background-size: cover;
+    background-position: 50% 50%;
+    box-shadow: unset;
+    padding-top: 15px;
+    position: relative;
+    z-index: 9;
+}
+
+.main-header::after {
+    content: "";
+    background: transparent linear-gradient(180deg, #000000 0%, #141414C2 36%, #54545400 100%) 0% 0% no-repeat padding-box;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    z-index: -1;
+    opacity: 0.6;
+}
+
+@media (max-width: 414px) {
+    .main-header {
+        height: 270px;
+        width: 100%;
+    }
+}

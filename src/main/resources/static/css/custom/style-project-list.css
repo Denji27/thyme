@@ -1,0 +1,444 @@
+.project-list-box {
+    margin-bottom: 15px;
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #ccd3d9;
+    border-radius: 5px;
+}
+
+.displaynone {
+    display: none;
+}
+
+.project-list-box .detail .title {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.project-list-box .detail .price-container {
+    border-top: 1px solid #CFCFCF;
+    bottom: 0;
+    width: 96%;
+    color: #555555;
+    margin-left: 0px;
+    bottom: 0;
+}
+
+.project-list-box .project-img img {
+    width: 100%;
+    border-radius: 5px;
+    /* height: 183px; */
+}
+
+.project-list-box .project-img:before {
+    content: "";
+    top: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 9;
+    border-radius: 4px 4px 0 0;
+    opacity: 1;
+}
+
+.project-list-box .detail .title a:hover {
+    color: #343a40;
+}
+
+
+.project-list-box .detail .location {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+
+.project-list-box .detail .location a {
+    color: #666;
+}
+
+.project-list-box .detail .location i {
+    margin-right: 3px;
+}
+
+.project-list-box .facilities-list {
+    margin-bottom: 20px;
+}
+
+.project-list-box .facilities-list li {
+    float: right;
+    line-height: 35px;
+    font-weight: 400;
+}
+
+.project-list-box .price-value {
+    width: 100%;
+    font-size: 22px;
+}
+
+.project-list-box .facilities-list .price-value p {
+    font-size: 21px;
+}
+
+.project-list-box .project-description {
+    font-size: 14px;
+    display: none;
+}
+
+.project-list-box .footer {
+    border-top: 1px solid #efefef;
+    padding: 0 35px 0 20px;
+    font-size: 14px;
+    background-color: #EEEEEE;
+}
+
+.project-list-box .footer button span {
+    color: #555555;
+}
+
+.project-list-box .footer .share:hover {
+    color: #1B6CA8;
+}
+
+.project-list-box .footer .like:hover {
+    color: #FFA000;
+}
+
+.project-list-box .listing-badges {
+    border-radius: 5px 0 0 0;
+}
+
+.map-content-sidebar .project-list-box .listing-badges .featured {
+    left: 15px;
+}
+
+.project-list-box .listing-time {
+    position: absolute;
+    z-index: 9;
+    top: 20px;
+}
+
+.project-list-box .fb {
+    width: 97.55%;
+}
+
+.project-list-box .details {
+    width: 100%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+@media (max-width: 1023px) and (min-width: 769px) {
+    .project-item-thumbnail {
+        background: #ccc;
+        border-radius: 5px;
+        background-image: url('../../img/no-image-thumb.png');
+        background-position: center;
+        background-size: cover;
+        margin: 10px 0px 10px 10px;
+        min-height: 178px;
+    }
+    .project-list-box .project-img img {
+        height: 183px;
+    }
+}
+@media (min-width: 1024px) {
+    .project-list-box .facilities-list li {
+        line-height: 23px;
+    }
+
+    .project-list-box .detail {
+        padding: 10px 10px 0px 0px;
+        margin-left: -13px;
+    }
+
+    .project-list-box .detail .location {
+        margin: 0px 0 20px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .project-list-box .detail .location a {
+        color: #666;
+    }
+
+    .project-list-box .facilities-list {
+        margin-bottom: 0px;
+        padding: 0px 15px;
+    }
+
+    .project-list-box .project-description {
+        display: -webkit-box;
+    }
+
+    .project-list-box .facilities-list .price-value {
+        width: 55%;
+    }
+
+    .heading-projects {
+        letter-spacing: 1px;
+        position: absolute;
+        bottom: 3%;
+        width: 45%;
+        padding: 20px;
+        left: 1.5%;
+        background-color: #ffffff;
+        border: 1px solid #A4A4A4;
+        border-radius: 5px;
+    }
+
+    .carousel-inner {
+        border-radius: 5px;
+    }
+
+    .heading-projects h3 {
+        color: #E54600;
+        font-weight: 600;
+    }
+
+    .properties-details-sliders .left {
+        left: -23px;
+        border-radius: 5px 0px 0px 5px
+    }
+
+    .properties-details-sliders .right {
+        right: -22px;
+        border-radius: 0px 5px 5px 0px;
+    }
+
+    .search-project {
+        width: 960px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    .project-list-box .project-img img {
+         height: 183px;
+    }
+    .project-item-thumbnail {
+        background: #ccc;
+        border-radius: 5px;
+        background-image: url('../../img/no-image-thumb.png');
+        background-position: center;
+        background-size: cover;
+        margin: 10px 0px 10px 10px;
+        min-height: 178px;
+    }
+
+    .price-container {
+        border-top: 1px solid #555555;
+        bottom: 0;
+        width: 96%;
+        color: #555555;
+    }
+
+    .facilities-list {
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+
+    .facilities-list li {
+        float: left;
+        font-size: 14px;
+        line-height: 35px;
+        font-weight: 400;
+    }
+
+    .facilities-list p {
+        font-size: 25px;
+    }
+
+    .pd-12 {
+        padding: 0 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .project-list-box .detail .price-container {
+        position: absolute;
+        width: 90%;
+    }
+
+    .item-list-thumbnail {
+        margin: 0;
+    }
+
+
+    .detail {
+        padding: 11px 10px 0px 10px;
+    }
+
+
+    .detail .price .land-area-value {
+        font-size: 12px;
+    }
+
+    .float-position {
+        text-align: left;
+    }
+
+    .project-list-box .facilities-list li {
+        font-size: 12px;
+        margin-bottom: -18px;
+    }
+
+    .property-list-box .detail {
+        padding: 11px 10px 0px 10px;
+    }
+}
+
+
+@media (min-width: 769px) {
+
+    .float-position {
+        text-align: right;
+    }
+
+    .detail .price-container {
+        position: absolute;
+    }
+
+    .project-list-box .detail .price {
+        font-size: 25px;
+    }
+
+    .project-list-box .detail {
+        padding: 15px 15px 30px 15px;
+    }
+
+    .project-list-box .facilities-list li {
+        font-size: 14px;
+    }
+
+    .un-favourite:hover ::before {
+        content: '\f004';
+        font-family: fontawesome, serif;
+        color: red;
+        cursor: pointer;
+        user-select: none;
+        /*transform: rotate(360deg);*/
+        /*background-image: url('../../img/icon/heart-end-32.png');*/
+    }
+
+    .favourite ::before {
+        content: '\f004';
+        font-family: fontawesome, serif;
+        color: red;
+        /*fill: red;*/
+        cursor: pointer;
+        user-select: none;
+        /*transition: width 1s, height 1s, transform 1s;*/
+        /*background-image: url('../../img/icon/heart-end-32.png');*/
+    }
+
+    .favourite:hover ::before {
+        content: '\f08a';
+        font-family: fontawesome, serif;
+        color: red;
+        /*fill: red;*/
+        cursor: pointer;
+        user-select: none;
+        box-shadow: red;
+        /*transform: scale(3);*/
+        /*animation: pulse 3s infinite;*/
+        /*background-image: url('../../img/icon/heart-end-32.png');*/
+    }
+
+    .like-favorites {
+        position: absolute;
+        top: 7%;
+        left: 85%;
+        width: 90%;
+        z-index: 998;
+        padding: 0;
+        display: block;
+        overflow: hidden;
+        /*font-size: 15px;*/
+    }
+}
+
+.facebook-button {
+    border: none;
+    background: white;
+}
+
+.facebook-icon {
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+
+.zalo-button {
+    margin-top: 10px;
+}
+
+.zalo-style {
+    margin-top: 13px;
+    margin-left: 10px;
+}
+
+#input-project-search input.form-control {
+    height: 45px !important;
+    border-radius: 5px !important;
+    font-size: 14px !important;
+    margin-bottom: 10px;
+}
+
+.investor-name {
+    font-size: 14px;
+    color: #666;
+    font-weight: 400;
+}
+
+
+@media (min-width: 768px) {
+    .project-list-box .details {
+        margin: 0;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .project-list-box .detail .location {
+        margin: 0 0 15px;
+    }
+}
+
+.un-favourite ::before {
+    content: '\f08a';
+    font-family: fontawesome, serif;
+    color: #FFA000;
+    cursor: pointer;
+    user-select: none;
+    transition: width 1s, height 1s, transform 1s;
+}
+
+@media (min-width: 1200px) {
+    .button-change-share-p:hover {
+        background-color: #1B6CA8 !important;
+        color: #FFFFFF !important;
+    }
+    .button-change-share-p:hover .icon-change-white {
+        color: #FFFFFF !important;
+    }
+}
+.button-change-share-p:active {
+    background-color: #1B6CA8 !important;
+    color: #FFFFFF !important;
+}
+.button-change-share-p:active .icon-change-white {
+    color: #FFFFFF !important;
+}
+.btn-common-info {
+    border: 1px solid #CFCFCF !important;
+    background-color: #FFFFFF !important;
+    color: #555555;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.button-change-share:hover {
+    background-color: #1B6CA8 !important;
+    color: #FFFFFF;
+}
+
+.button-change-share:hover .icon-change-white {
+    color: #FFFFFF;
+}

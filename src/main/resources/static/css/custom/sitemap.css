@@ -1,0 +1,64 @@
+.site-center {
+    width: 1000px;
+    margin: auto;
+    background: #fff;
+    padding: 10px 10px 0 10px;
+}
+
+.site-center .main-content{
+    font-family: Tahoma;
+    font-size: 12px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.site-center .main-content .html-content{
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.site-center .main-content .html-content .sitemap {
+    padding-top: .5em;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+.site-center .main-content .html-content .sitemap .sitemap-home{
+    display: inline;
+    float: left;
+    margin-left: 2%;
+    padding-bottom: 1em;
+    width: 25%;
+}
+
+.sitemap ul.topLevel {
+    background-image: url(https://file4.batdongsan.com.vn/images/squareDot.gif);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding-left: 1.5em;
+}
+
+.sitemap .dottedDivider {
+    border-top: 1px dashed #CCC;
+    clear: both;
+    padding-bottom: 16px;
+}
+
+.sitemap li a {
+    line-height: 1.7em;
+    margin: 0;
+    padding: 0;
+    color: #055699;
+    text-decoration: underline;
+}
+
+.sitemap li a:hover {
+    text-decoration: none;
+}
+
+.color-text-a {
+    color: #055699 !important;
+}

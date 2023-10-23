@@ -1,0 +1,224 @@
+
+/** TEAM 2 STARTED **/
+h5.title-top {
+    text-align: left;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #006DC7;
+    /**to be consistent w/ project list**/
+    text-transform: capitalize;
+    opacity: 1;
+    font-family: "Roboto", sans-serif;
+}
+
+/**overwrite font-family in style.css**/
+.agent-box .agent-item-info {
+    font-family: "Roboto", sans-serif !important;
+    font-size: 13px;
+}
+
+p.agent-count {
+    font-family: roboto;
+}
+
+#agent-counter {
+    color: #006DC7;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+}
+
+.agent-box {
+    max-width: 320px;
+    margin: 0 auto 0;
+    background: #fff;
+    box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.agent-box .team-photo img {
+    position: relative;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.agent-box .agent-title-box {
+    padding: 10px;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    height: 64px;
+    background-color: #555555;
+    text-align: center;
+}
+
+.agent-box .agent-title-box a {
+    color: white;
+    font: Bold 14px/17px Roboto;
+}
+
+.agent-rating {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: white;
+}
+
+
+.star-bottom-layer, .star-top-layer {
+    left: 50%;
+    margin-left: -45.5px;
+}
+
+/*.star-bottom-layer, .star-top-layer {*/
+/*    position: absolute;*/
+/*    left: 50%;*/
+/*    margin-left: -45.5px;*/
+/*    width: 91px;*/
+/*    height: 25px;*/
+/*}*/
+
+/*.star-bottom-layer {*/
+/*    color: black;*/
+/*}*/
+
+/*.star-top-layer {*/
+/*    color: #FFA41B;*/
+/*    overflow: hidden;*/
+/*    !*width should be set to the percentage rating*!*/
+/*    white-space: nowrap;*/
+/*    z-index: 1;*/
+/*}*/
+
+.agent-box .team-details h6 {
+    font-size: 11px;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.agent-box .team-details h5 {
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+
+.agent-box .team-details p {
+    position: relative;
+    /*font: Regular 12px/14px Roboto;*/
+    font-size: 14px;
+    font-family: Roboto;
+    margin-bottom: 0;
+    line-height: 30px;
+}
+
+.agent-col-2 {
+    position: absolute;
+    left: 22px;
+    right: 2px;
+    position: absolute;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#agent-icon-email {
+    height: 12px;
+    width: 19px;
+}
+
+#agent-icon-phone {
+    height: 13px;
+    width: 13px;
+    margin-left: 2px;
+}
+
+.agent-box .team-details p i {
+    position: absolute;
+    left: 0;
+    line-height: 30px;
+}
+
+.agent-box .contact {
+    position: relative;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0px;
+    /*height: 108px;*/
+    background-color: white;
+    border: 1px solid #CFCFCF;
+}
+
+.agent-date {
+    border-top: 1px dashed #CFCFCF;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.agent-created-date {
+    float: right;
+}
+
+.agent-button {
+    padding-top: 5px;
+    position: relative;
+    float: left;
+    width: 100%;
+    margin: 0px 0% 30px 0%;
+    height: 29px;
+    background-color: #CFCFCF;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.agent-button:hover {
+    background-color: #006DC7;
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .agent-box .agent-item-info {
+        font-size: 16px;
+    }
+
+    .agent-box .agent-title-box a {
+        font: Bold 17px Roboto;
+    }
+
+    .agent-button {
+        padding-top: 2px;
+    }
+
+    .agent-col-2 {
+        left: 32px;
+    }
+}
+.ml-4px {
+    margin-left: 4px;
+}
+
+#selectedOrder {
+    color: #9a9292;
+}
+
+.select-option {
+    font-size: 14px;
+    color: #0b0b0b;
+}
+
+.star-bottom-layer {
+    width: 92.7px;
+}
+
+
+
+
+
+

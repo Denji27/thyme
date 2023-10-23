@@ -1,0 +1,292 @@
+.explore-title, .explore-name {
+    color: #A14C10;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.property-photo {
+    border-radius: 4px;
+}
+
+.img-fluid {
+    border-radius: 4px;
+}
+
+.explore-name {
+    margin: 20px 0;
+}
+
+.inner-item {
+    background: #808080;
+    border-radius: 4px;
+    height: 160px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #fff;
+    transition: .3s;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.inner-item:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.3);
+}
+
+.center {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 65px;
+    display: inline-block;
+    text-shadow: 0 3px 4px rgba(0,0,0,.3);
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+}
+
+.background {
+    background: rgba(0,0,0,.3);
+}
+
+/* start custom style select2 */
+.select2-container {
+    width: 100% !important;
+    height: 2rem;
+}
+
+.select2-selection__rendered {
+    line-height: 40px !important;
+}
+
+.select2-selection__arrow {
+    height: 40px !important;
+}
+
+.select2-selection--single {
+    height: 40px !important;
+    border-radius: 1px !important;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.select2-results__option {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.image-main {
+    float: left;
+    width: 62%;
+    height: 320px;
+    border-radius: 4px;
+}
+
+.image-list {
+    float: left;
+    padding-left: 10px;
+    width: 200px;
+}
+
+.image-item {
+    float: left;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.info-item {
+    eight: 150px;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%;
+    box-shadow: 0 2px 4px 1px rgba(48,69,110,.2);
+    border-radius: 4px;
+}
+
+.lc-info {
+    float: left;
+    width: 50%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    margin: 10px 0;
+}
+
+.lc-info-2 {
+    float: left;
+    width: 50%;
+}
+
+.lc-info-3 {
+    padding: 0 16px;
+    margin: 19px 0;
+}
+
+.text {
+    margin-left: 20px;
+}
+
+.link li {
+    margin-bottom: 10px;
+}
+
+.link strong{
+    color: #A14C10;
+}
+
+.trending {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.realEstate-category {
+    margin: 0;
+    width: 100%;
+    height: 80px;
+    padding: 20px 15px 15px 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 1px rgba(48,69,110,.2);
+}
+
+.choose-price {
+    width: 52%;
+    float: left;
+    border-right: 1px solid #ddd;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+
+.trending-detail {
+    float: left;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px 1px rgba(48,69,110,.2);
+}
+
+.title-price {
+    color: #4a4a4a;
+    font-size: 15px;
+    margin: 0;
+}
+
+.txt-price {
+    font-size: 15px;
+    color: #27406d;
+}
+
+.percent {
+    width: 47%;
+    float: left;
+    text-align: center;
+    padding: 98px 0 0 0;
+}
+
+.index {
+    font-size: 22px;
+    color: #4a4a4a;
+}
+
+.view-more {
+    color: #A14C10;
+}
+
+.broker-image {
+    height: 300px;
+}
+
+.realEstate-category2 {
+    margin-top: 145px;
+}
+
+.realEstate-list {
+    box-shadow: 0 2px 4px 1px rgba(48,69,110,.2);
+    margin-bottom: 20px;
+}
+
+.realEstate-title {
+    background: #A14C10;
+    color: #fff;
+}
+
+.realEstate-content {
+    padding: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .image-main {
+        width: 100%;
+        height: 100%;
+    }
+
+    .image-list {
+        display: block;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .image-item {
+        width: 30%;
+        /*height: 100%;*/
+        margin: 10px 20px 10px 0;
+    }
+
+    .last {
+        margin-right:  0;
+    }
+    #line-chart {
+        margin-top: 60px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .mobile-category {
+        display: none;
+    }
+
+    .image-item {
+        margin: 10px 15px 10px 0;
+    }
+
+    .last {
+        margin-right:  0;
+    }
+
+    .realEstate-category2 {
+        margin-top: 130px;
+    }
+
+    .realEstate-list {
+    }
+}
+@media only screen and (max-width: 414px) {
+    .realEstate-category2 {
+        display: none;
+    }
+
+    .inner-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .image-item {
+        margin: 10px 14px 10px 0;
+    }
+
+    .last {
+        margin-right:  0;
+    }
+}

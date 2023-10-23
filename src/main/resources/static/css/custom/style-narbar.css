@@ -1,0 +1,74 @@
+.max-content {
+    width: max-content;
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 768px) {
+    .icon-hidden {
+        display: none;
+    }
+
+    #loginModal,
+    #registerModal {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #registerModalSucc .modal-content {
+        width: 100% !important;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    #activeAccount .modal-content {
+        width: 100% !important;
+    }
+
+}
+
+.color-white {
+    color: #FFF !important;
+}
+
+label.error {
+    color: red !important;
+    font-style: italic !important;
+    margin-bottom: 0px !important;
+    font-size: 13px !important;
+}
+
+#loginError {
+    display: block !important;
+    text-align: center !important;
+}
+
+#my-scroll {
+    height: 47vh;
+    overflow-y: auto;
+}
+
+.btn-outline-post {
+    color: #006DC7;
+    border: 1px solid #006DC7;
+}
+
+.btn-outline-post:hover {
+    color: #ffff;
+    background-color: #006DC7;
+}
+
+.navbar-toggler-icon {
+    color: #555;
+}
+
+.select2-selection__rendered {
+    line-height: 45px !important;
+}
+
+.navbar-toggler-icon i {
+    font-size: 28px;
+}

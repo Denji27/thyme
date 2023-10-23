@@ -1,0 +1,70 @@
+.profile-company {
+    background: #F9F9F9 no-repeat padding-box;
+    opacity: 1;
+}
+
+.img-company {
+    width: 280px;
+    height: 280px;
+    border: 1px solid #A4A4A4;
+    opacity: 1;
+}
+
+.fz-14 {
+    font-size: 14px;
+}
+
+.mg-1 {
+    margin: 0 1px;
+}
+
+.height-info {
+    height: 355px;
+}
+
+.text-grey {
+    color: #555555;
+}
+
+.ico-info {
+    height: 16px;
+    width: auto;
+}
+
+.ico-info-14 {
+    height: 14px;
+    width: auto;
+}
+
+.text-brown {
+    color: #006DC7;
+}
+
+/*.table td, .table th {*/
+/*    padding-left: 0;*/
+/*    border-top: none;*/
+/*    padding-bottom: 10px;*/
+/*}*/
+
+.hr-border-2 {
+    border-top: 2px solid rgba(0,0,0,.1) !important;
+}
+
+.LinhVucHoatDong > hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .dp-none {
+        display: none;
+    }
+}
+
+@media (max-width: 760px) {
+    .dp-none-2 {
+        display: none;
+    }
+}
+
+

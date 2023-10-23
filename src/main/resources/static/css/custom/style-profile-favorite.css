@@ -1,0 +1,43 @@
+.border-grey {
+    border-radius: 5px !important;
+    border: #CFCFCF 1px solid !important;
+}
+
+.border-radius-5 {
+    border-radius: 5px !important;
+}
+
+.fz-18 {
+    font-size: 18px;
+}
+
+.fz-13 {
+    font-size: 13px !important;
+}
+
+hr.dashed-grey {
+    border-top: 1px dashed #A4A4A4;
+}
+
+.color-grey {
+    color: #555555;
+}
+
+.upper-case-bold {
+    color: #555555;
+    font-weight: bold;
+}
+
+.tbl {
+    white-space: nowrap !important;
+    table-layout: fixed !important;
+}
+
+.bgr {
+    background-color: #EEEEEE !important;
+    border-radius: 5px !important;
+}
+
+.dp-inline {
+    display: inline;
+}

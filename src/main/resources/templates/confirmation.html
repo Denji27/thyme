@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Confirmation Page</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <base href="/">
+    <link rel="stylesheet" th:href="@{http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css}">
+    <style>
+        body {text-align: center;}
+    </style>
+</head>
+    <body>
+        <h1>Thank you for submitting the form!</h1>
+            <p>Name: [[${customer.name}]]</p>
+            <p></p>
+    </body>
+</html>

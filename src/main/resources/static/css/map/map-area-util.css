@@ -1,0 +1,236 @@
+.view-map .list-place {
+  width: 100%;
+  background: #fff;
+  z-index: 999;
+  transition: 0.5s;
+  float: left;
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.view-map .list-place .tab-place {
+  float: left;
+  width: 100%;
+  /* border-bottom: 1px solid #e8e8e8; */
+}
+
+.view-map .list-place .ul-list.no-sub {
+  position: relative;
+  overflow: visible;
+  /* height: 410px; */
+}
+
+.mCustomScrollBox {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  outline: 0;
+  direction: ltr;
+}
+
+.mCSB_container {
+  overflow: hidden;
+  width: auto;
+  height: auto;
+}
+
+.view-map .list-place .ul-list #list_place {
+  float: left;
+  width: 100%;
+}
+
+.view-map .list-place .ul-list li {
+  padding: 10px 0;
+  padding-bottom: 5px;
+  box-sizing: border-box;
+  width: 100%;
+  float: left;
+  border-bottom: 1px dashed #cfcfcf;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.view-map .list-place .ul-list li .content-place {
+  float: left;
+  width: calc(100% - 20px - 110px);
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: #555555;
+  font-size: 14px;
+}
+
+.view-map .list-place .ul-list li .content-place .name {
+  font-weight: 500;
+  color: #555555;
+  margin-bottom: 5px;
+  line-height: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.view-map .list-place .ul-list li .content-place .address {
+  font-size: 12px;
+  color: #555555;
+}
+
+/* .view-map .list-place .ul-list li .icon {
+  float: left;
+  margin-top: 8px;
+  height: 20px;
+  width: 20px;
+  background: #0098da;
+  background-size: 100% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.view-map .list-place .ul-list li .icon.bank {
+  background: url(https://static.homedy.com/src/images/location-reviews/nganhang3.svg);
+} */
+
+.view-map .list-place .ul-list li .info-place {
+  width: 90px;
+  float: left;
+  text-align: right;
+}
+
+.view-map .nav-tabs li a {
+  padding: 9px 20px 5px;
+}
+
+.view-map .nav-tabs li a img {
+  padding-bottom: 5px;
+}
+
+.view-map .nav-tabs .nav-item .icon, ul#list_place li span.icon {
+  float: left;
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+.main-2 a{
+  padding: 9px 30px 5px 18px!important;
+}
+.main-2 a span{
+  width: auto!important;
+  margin-right:0px!important;
+}
+.view-map  .nav-tabs{
+  border-bottom: solid 1px #cfcfcf;
+}
+.main-2 .nav-link:hover {
+  border-bottom: solid 1px #cfcfcf;
+}
+.main-2 a.active {
+
+  border-bottom: none!important;
+ 
+  /* margin-right: 5px; */
+}
+.marker-popup {
+  min-width: 180px;
+  min-height: 50px;
+}
+
+.marker-popup .image {
+  /* background: url(https://static.homedy.com/src/images/location-reviews/nganhang3.svg)
+    no-repeat center; */
+  background-size: 40%;
+}
+
+.marker-popup .image {
+  width: 48px;
+  height: 48px;
+  margin-right: 10px;
+  float: left;
+  border: 1px solid rgba(39, 64, 109, 0.6);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.marker-popup b {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: inline-block;
+  width: calc(100% - 60px);
+}
+.marker-popup b {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: inline-block;
+  width: calc(100% - 60px);
+}
+.leaflet-container a.leaflet-popup-close-button {
+  position: absolute;
+  top: 0px !important;
+  right: 0px !important;
+}
+
+.view-map .nav-tabs .nav-item a {
+  border-radius: 0;
+  font-size: 14px;
+  color: #a4a4a4 !important;
+  /* font-weight: bold; */
+}
+.view-map .nav-tabs .nav-item a:hover {
+  color: #9b654d !important;
+}
+.view-map .nav-tabs .nav-item a.active {
+  background: unset !important;
+  color: #006DC7 !important;
+  font-weight: bold !important;
+  border-bottom: 2px solid #a4a4a4;
+  font-weight: bold;
+  /* margin-right: 5px; */
+}
+
+.list-place-popup .title button {
+  border: 0;
+  padding: 15px;
+  position: absolute;
+  top: 10px;
+  right: 8px;
+  background: url(https://static.homedy.com/src/images/location-reviews/arrow.svg)
+    no-repeat center;
+  background-size: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+  transform: rotate(-180deg);
+}
+.list-place-popup .title button.hide {
+  transform: none;
+}
+.list-place-popup .title {
+  text-align: center;
+  font-weight: bold;
+  padding: 15px;
+  font-size: 15px;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.list-place-popup.hide {
+  max-height: 49px;
+}
+
+.list-place-popup #sub-category {
+  width: 100%;
+}
+.map {
+  background: #f5f5f5;
+  height: 480px;
+  width: 100%;
+  position: relative;
+}
+#list_place .info-place {
+  font-size: 12px;
+}
+.location-util-map {
+  width: 100% !important;
+}

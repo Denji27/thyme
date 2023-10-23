@@ -1,0 +1,126 @@
+
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px;
+    height: 100vh;
+    z-index: 1000;
+    background: #FFF;
+    color: #006DC7;
+    transition: all 0.3s;
+    overflow-y: scroll;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+}
+
+#sidebar.active {
+    left: 0;
+}
+
+#dismiss {
+    line-height: 35px;
+    text-align: right;
+    padding-right: 10px;
+    cursor: pointer;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+#dismiss i{
+    font-size: 28px;
+}
+
+.overlay.active {
+    display: block;
+    opacity: 1;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #006dc7;
+}
+
+/* #sidebar ul.components {
+    padding: 50px 0;
+} */
+
+#sidebar ul p {
+    color: #fff;
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    color: #006dc7;
+    background: #fff;
+}
+
+/* #sidebar ul li.active>a,
+a[aria-expanded="true"] {
+    color: #fff;
+    background:#006dc7;
+} */
+
+a[data-toggle="collapse"] {
+    position: relative;
+}
+
+#sidebar .dropdown-toggle::after {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+#sidebar ul.components li a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sidebar .list-unstyled li{
+    border-top: 1px solid #e5e5e5;
+}
+
+#sidebar .img-avatar-mobile{
+    width: 102px;
+    height: 102px;
+    border-radius: 50em;
+    padding: 20px;
+}
+
+.bg-menu{
+    background-image: linear-gradient(to bottom right, #006dc7, #3f51b561);
+    background-position: center;
+    background-size: cover;
+    height: 170px;
+    color: #ffff;
+  }
+  
+  .btn-post{
+    background-color:#006DC7;
+    color: #ffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: unset;
+    border-radius: unset;
+    height: 36px;
+  }
+
+.btn-tab-common:hover {
+    background-color: #006DC7 !important;
+    color: white;
+}

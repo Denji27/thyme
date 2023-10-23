@@ -1,0 +1,87 @@
+.project-img {
+}
+.project-img img {
+    border-radius: 5px 5px 0 0;
+    height: 150px;
+    object-fit: cover;
+}
+.project-name {
+    padding: 10px;
+    text-align: left;
+    font: Bold 16px/19px Roboto;
+    letter-spacing: 0;
+    color: #E54600;
+    opacity: 1;
+    word-break: break-word;
+}
+.project-info {
+    border-bottom: 1px solid #A4A4A4;
+    border-left: 1px solid #A4A4A4;
+    border-right: 1px solid #A4A4A4;
+    border-radius: 0px 0px 5px 5px;
+    color: #555555;
+    font-size: 13px;
+}
+.address-area, .company-area {
+    padding: 0 10px;
+}
+.company-area {
+    margin-top: 5px;
+}
+.price-area, .process-area {
+    padding: 10px 10px 5px 10px;
+    display: inline-block;
+    width: 100%;
+}
+.price-area .left, .process-area .left {
+    float: left;
+}
+.price-area .right, .process-area .right {
+    float: right;
+}
+.process-area {
+    border-top: 1px solid #A4A4A4
+}
+.badge-icon {
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 80px;
+    height: 60px;
+    position: absolute;
+    left: 24px;
+    top:24px;
+    text-align: center;
+    padding-top: 17px;
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+}
+.txt-beside-icon{
+    margin-left: 5px;
+    float: left;
+    padding-top: 3px;
+}
+.txt-acreage{
+    margin-left: 5px;
+    float: left;
+    padding-top: 3px;
+}
+
+.address-area span:nth-child(1) {
+    width: 15px;
+    display: inline-block;
+    text-align: center
+}
+
+.address-area i {
+    font-size: 15px;
+}
+
+.company-area span:nth-child(1){
+    width: 17px;
+    display: inline-block
+}
+
+.company-area img {
+    width: 17px;
+}

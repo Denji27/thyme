@@ -1,0 +1,145 @@
+
+.line {
+    color: #FFF;
+}
+
+.max-content {
+    width: max-content;
+}
+
+.tabbing-box .nav-tabs .nav-item a.active1 {
+    background-color: #006DC7 !important;
+    font-weight: bold !important;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 768px) {
+    /*             .logo-nav {
+                    height: 100px;
+                    max-width: 100%;
+                } */
+    .icon-hidden {
+        display: none;
+    }
+
+    #loginModal,
+    #registerModal {
+        padding: 0px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    #registerModalSucc .modal-content {
+        width: 100% !important;
+    }
+
+}
+
+@media only screen and (max-width: 991px) {
+    #activeAccount .modal-content {
+        width: 100% !important;
+    }
+
+}
+
+.color-white {
+    color: #FFF !important;
+}
+
+label.error {
+    color: red !important;
+    font-style: italic !important;
+    margin-bottom: 0px !important;
+    font-size: 13px !important;
+}
+
+#loginError {
+    display: block !important;
+    text-align: center !important;
+}
+
+#my-scroll {
+    height: 47vh;
+    overflow-y: auto;
+}
+
+#input-search::placeholder { /* Most modern browsers support this now. */
+    color: #999 !important;
+}
+
+.main-header .navbar-expand-xl .navbar-nav .nav-link {
+    color: white;
+}
+
+.icon-search {
+    color: #ffff;
+}
+
+.top-social-media li {
+    color: #ffff;
+}
+
+.select2-theme {
+    border-bottom-left-radius: 5px;
+}
+
+.scrolling {
+    transition: .3s all ease-out;
+}
+.map-color{
+    color: #ffff;
+}
+
+.show-more-options {
+    color: white !important;
+    margin-bottom: 0 !important;
+}
+#owner-label {
+    color: #ffff;
+}
+
+.navbar-toggler-icon i {
+    font-size: 28px;
+}
+
+.autocomplete {
+    position: relative !important;
+    display: inline-block;
+}
+
+.autocomplete-items {
+    position: absolute;
+    border: 1px solid #d4d4d4;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+.autocomplete-items div {
+    padding: 6px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+/*when hovering an item:*/
+.autocomplete-items div:hover {
+    background-color: #77baf2;
+}
+
+/*when navigating through the items using the arrow keys:*/
+.autocomplete-active {
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+}
+
+#input-searchautocomplete-list {
+    margin-top: -16px;
+    font-size: 13px;
+}

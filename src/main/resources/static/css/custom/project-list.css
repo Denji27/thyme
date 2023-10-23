@@ -1,0 +1,259 @@
+.project-list-page {
+  font-family: Roboto;
+}
+
+/** PROPERTY BOX 2 AREA START **/
+
+.box-list-project-long {
+  margin-bottom: 30px;
+  overflow: hidden;
+  /* background: #fff; */
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+}
+
+.box-list-project-long:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+.box-list-project-long .details {
+  z-index: 10;
+  margin-left: -15px;
+  background: #fff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #a4a4a4;
+  border-radius: 5px;
+}
+
+.box-list-project-long .detail .title {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 0px;
+  margin-bottom: 15px;
+  font-family: roboto;
+}
+.box-list-project-long .investor-name {
+  margin-bottom: 2%;
+  display: block;
+  font-size: 14px;
+}
+.box-list-project-long .property-img img {
+  width: 100%;
+}
+.box-list-project-long .line-project {
+  margin-bottom: 0.5rem !important;
+}
+.footer-list-project {
+  font-size: 14px;
+  color: #555555;
+}
+.box-list-project-long .property-img:before {
+  content: "";
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+  border-radius: 4px 4px 0 0;
+  opacity: 1;
+}
+
+.box-list-project-long .detail .title a:hover {
+  color: #343a40;
+}
+
+.box-list-project-long .detail {
+  padding: 15px 35px 0 20px;
+}
+
+.box-list-project-long .detail .location {
+  font-size: 14px;
+  margin-bottom: 30%;
+}
+
+.box-list-project-long .detail .location a {
+  color: #666;
+}
+
+.box-list-project-long .detail .location i {
+  margin-right: 3px;
+}
+
+.box-list-project-long .facilities-list {
+  margin-bottom: 20px;
+}
+
+.box-list-project-long .facilities-list li {
+  width: 33%;
+  float: left;
+  font-size: 14px;
+  line-height: 35px;
+  font-weight: 400;
+}
+
+.box-list-project-long .footer a {
+  color: #555;
+}
+
+.box-list-project-long .footer i {
+  margin-right: 2px;
+}
+
+.box-list-project-long .footer p {
+  line-height: 44px;
+  margin: 0 0 0 25px;
+}
+
+.box-list-project-long .footer p i {
+  margin-right: 5px;
+}
+
+.box-list-project-long .footer {
+  border-top: 1px solid #e5e5e5;
+}
+
+.box-list-project-long .listing-badges .featured {
+  left: 15px;
+}
+
+.map-content-sidebar .box-list-project-long .listing-badges .featured {
+  left: 15px;
+}
+
+.box-list-project-long .listing-time {
+  position: absolute;
+  z-index: 9;
+  top: 20px;
+}
+
+.box-list-project-long .footer {
+  position: absolute;
+  bottom: 0;
+  z-index: 20;
+  width: 100%;
+}
+
+.box-list-project-long .footer {
+  border-top: 1px solid #efefef;
+  line-height: 48px;
+  padding: 0 35px 0 20px;
+  font-size: 14px;
+}
+/** PROPERTY BOX AREA START **/
+
+/* hung style project */
+#outstanding-project {
+  background: #f9f9f9 0% 0% no-repeat padding-box;
+  opacity: 1;
+  font-family: Roboto;
+}
+
+h5.title {
+  text-align: left;
+  font-size: 30px;
+  letter-spacing: 0px;
+  color: #006DC7;
+  text-transform: capitalize;
+  opacity: 1;
+  font-family: roboto;
+}
+.box-project-outstanding {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.box-project-outstanding .top {
+  padding: 20px 20px 15px;
+  background: #fff;
+}
+
+.box-project-outstanding .top .title {
+  text-align: left;
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: #555555;
+  text-transform: capitalize;
+  opacity: 1;
+}
+
+.box-project-outstanding .top .title a:hover {
+  color: #343a40;
+}
+
+.box-project-outstanding .details {
+  position: relative;
+  width: 94%;
+  margin: -30px 3% 30px 3%;
+  padding: 0;
+  background: #fff;
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
+  z-index: 9;
+  border-radius: 5px;
+  height: 130px;
+}
+
+.box-project-outstanding .top .location {
+  font-size: 14px;
+  color: #555;
+}
+
+.box-project-outstanding .top .location a {
+  color: #555;
+}
+
+.box-project-outstanding .top .location i {
+  margin-right: 5px;
+}
+
+.box-project-outstanding .facilities-list {
+  background: #f7f7f7;
+  padding: 10px 0;
+}
+
+.box-project-outstanding .facilities-list li {
+  list-style: none;
+  float: left;
+  line-height: 35px;
+  text-align: center;
+  width: 33%;
+}
+
+.box-project-outstanding .facilities-list p {
+  margin-bottom: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #555;
+}
+
+.box-project-outstanding .facilities-list li i {
+  font-size: 20px;
+}
+
+.box-project-outstanding .footer {
+  background: #fff;
+  font-size: 14px;
+  color: #555555;
+  padding: 0px 20px 5px;
+}
+
+.box-project-outstanding .footer p {
+  line-height: 48px;
+  margin: 0 0 0 20px;
+}
+
+.box-project-outstanding .footer ul li {
+  display: inline-block;
+  width: 48px;
+  margin: 0 0 0 -4px;
+}
+
+.box-project-outstanding .footer ul li a {
+  display: block;
+  font-size: 18px;
+  height: inherit;
+  line-height: 48px;
+  text-align: center;
+  width: 48px;
+  border-left: 1px solid #9b8484;
+  color: #555555;
+}

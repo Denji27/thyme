@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Customer Form</title>
+    <style>
+        header{
+            text-align: center;
+            padding: 20px;
+        }
+        form{
+            float: none;
+            flex: 1;
+            text-align: center;
+        }
+        main {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+        .div_left{
+            background-color: #3180e8;
+            /*width: 200px;*/
+            float: right;
+            flex: 1;
+        }
+        #left{
+            float: left;
+            text-align: right;
+            width: 50%;
+            flex: 1;
+            padding: 20px;
+        }
+        #right{
+            float: right;
+            text-align: left;
+            width: 50%;
+            flex: 1;
+            padding: 20px;
+        }
+    </style>
+</head>
+    <body>
+    <header>
+        <h1 style="color: white; font-family: Arial,serif; background-color: #3180e8">Description</h1>
+        <p th:text="${description.content}"></p>
+        <h2 style="color: white; font-family: Arial; background-color: #3180e8">Customer Information Form</h2>
+    </header>
+    <form th:object="${customer}" th:action="@{/customer/submit}" method="POST" >
+        <main>
+            <section id="left">
+                <div class="div_left">
+                    <label for="name" style="color: white; font-size: 30px; font-family: Arial">Name:</label><br />
+                    <label for="citizenIdentificationNumber" style="color: white; font-size: 30px; font-family: Arial">Citizen Identification Number:</label><br />
+                    <label for="address" style="color: white; font-size: 30px; font-family: Arial">Address:</label><br />
+                    <label for="email" style="color: white; font-size: 30px; font-family: Arial">Email:</label><br />
+                    <label for="dateOfBirth" style="color: white; font-size: 30px; font-family: Arial">Date of Birth:</label><br />
+                </div>
+            </section>
+
+            <section id="right">
+                <input type="text" id="name" th:field="*{name}" style="font-size: 30px; display: none;" /><br />
+                <input type="text" id="citizenIdentificationNumber" th:field="*{citizenIdentificationNumber}" style="font-size: 30px" required /><br />
+                <input type="text" id="address" th:field="*{address}" style="font-size: 30px" required /><br />
+                <input type="text" id="email" th:field="*{email}" style="font-size: 30px" required /><br />
+                <input type="date" id="dateOfBirth" th:field="*{dateOfBirth}" style="font-size: 30px" required /><br />
+                <button type="submit" style="font-size: 30px">Submit</button>
+            </section>
+        </main>
+    </form>
+    </body>
+</html>
